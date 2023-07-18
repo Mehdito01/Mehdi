@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke ;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px 0px;
+    background-color: grey;
+    box-shadow: royalblue;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styles pour le titre principal */
+h1 {
+    font-size: 36px;
+    color: #333333;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Styles pour les sections gauche et droite */
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+    display: flex;
+}
+
+.gauche {
+    width: 60%;
+    padding: 10px;
+    flex: 1;
+    margin-right: 20px;
+    background-color: grey;
+    border: solid 2px#666666;
+}
+
+.droite {
+    width: 35%;
+    flex: 1;
+    
+    background-color:white ;
+}
+
+/* Styles pour les en-têtes de section */
+h2 {
+    font-size: 24px;
+    color: #333333;
+    margin-top: 20px;
+}
+
+/* Styles pour les coordonnées */
+p {
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+
+/* Styles pour les listes d'expériences professionnelles */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/* Styles pour les éléments de liste */
+li {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 5px;
+}
+
+/* Styles pour les photos */
+.photos {
+    width: 200px;
+    height: 200px;
+    background-color:grey;
+    margin-bottom: 20px;
+    border-radius: 100px;
+}
+ img {
+    width: 110%
+    ;
+    margin-top: -10px;
+    margin-left: -12px;
+}
