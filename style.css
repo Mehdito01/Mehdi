@@ -26,13 +26,12 @@ h1 {
     font-size: 110px;
     color:aqua;
     font-family: Abril fatface, sans-serif;
+    margin-bottom: 100px;
 }
 h1 span {
     position: relative;
 }
 .container-btns {
-    position: relative;
-    top: 50px;
 }
 .btn-first {
     border: 2px solid green;
@@ -147,4 +146,32 @@ h1 span {
               transform: rotateY(180deg);
     }
   }
-  
+
+@media screen and (max-width:767px) {
+    h1 {
+        font-size: 45px;
+        margin-bottom: 50px;
+    }
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+    .bulle {
+        width: 40px;
+        height: 40px;
+    }
+    svg {
+        width: 30px;
+        height: 30px;
+    }
+    .container-btns {
+        margin-top: 50px;
+        width: 80%;
+        display: flex;
+      }
+    .btn-first {
+        font-size: 30px;
+    padding: 10px;
+    width: 100%;
+    }
+}
